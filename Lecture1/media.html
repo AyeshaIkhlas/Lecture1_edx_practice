@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Web Page</title>
+	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style >
+		@media (min-width: 700px) {
+			h2::before {
+				background-color: green;
+				content: "Welcome to my webpage";
+			}
+		}
+		@media (max-width: 699px) {
+			h2::before {
+				background-color: yellow;
+				content: "Welcome";
+		}
+	}
+		@media print {
+			.screen_only {
+				display: none;
+			}
+		}
+	</style>
+	<body>
+		<h2></h2>
+		<p class="screen_only">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim risus nisl. Sed blandit massa sit amet lectus lobortis, in sodales nibh ornare. Ut varius metus sed porta porttitor. Pellentesque interdum egestas diam vel laoreet. Pellentesque ac lacinia sapien. Cras ornare semper velit, quis congue ex convallis at. Suspendisse eleifend quam ex, vitae sollicitudin orci auctor in.
+
+</p>
+
+	<!--	<h2 ></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim risus nisl. Sed blandit massa sit amet lectus lobortis, in sodales nibh ornare. Ut varius metus sed porta porttitor. Pellentesque interdum egestas diam vel laoreet. Pellentesque ac lacinia sapien. Cras ornare semper velit, quis congue ex convallis at. Suspendisse eleifend quam ex, vitae sollicitudin orci auctor in.</p>
+
+		<h2></h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dignissim risus nisl. Sed blandit massa sit amet lectus lobortis, in sodales nibh ornare. Ut varius metus sed porta porttitor. Pellentesque interdum egestas diam vel laoreet. Pellentesque ac lacinia sapien. Cras ornare semper velit, quis congue ex convallis at. Suspendisse eleifend quam ex, vitae sollicitudin orci auctor in.
+
+</p> !-->
+	</body>
+</html>
